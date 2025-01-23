@@ -1,8 +1,8 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta property="og:type" content="website">
     <meta property="og:title" content="Wave Synthesis Puzzle">
     <meta property="og:url" content="https://sachade.co/">
@@ -10,8 +10,25 @@
     <title>Wave Synthesis Puzzle</title>
     <script type="module" crossorigin src="/games/wavepuzzle/assets/index-MiTpDjY-.js"></script>
     <link rel="stylesheet" crossorigin href="/games/wavepuzzle/assets/index-FXc_Ww7K.css">
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
+</head>
+<body>
+<script src="https://swetrix.org/swetrix.js" defer></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        swetrix.init('k5IaJ8B4SRuS', {
+            apiURL: 'https://analytics.mikandev.tech/log',
+        })
+        swetrix.trackViews()
+    })
+</script>
+
+<noscript>
+    <img
+            src="https://analytics.mikandev.tech/log/noscript?pid=k5IaJ8B4SRuS"
+            alt=""
+            referrerpolicy="no-referrer-when-downgrade"
+    />
+</noscript>
+<div id="root"></div>
+</body>
 </html>
