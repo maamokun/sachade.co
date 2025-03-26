@@ -19,6 +19,15 @@
             apiURL: 'https://analytics.mikandev.tech/log',
         })
         swetrix.trackViews()
+
+        // Email obfuscation
+        const emailElement = document.getElementById('obfuscated-email');
+        if (emailElement) {
+            const user = 'webmaster';
+            const domain = 'sachade.co';
+            emailElement.innerHTML = user + '&#64;' + domain;
+            emailElement.href = 'mailto:' + user + '@' + domain;
+        }
     })
 </script>
 
@@ -29,22 +38,30 @@
             referrerpolicy="no-referrer-when-downgrade"
     />
 </noscript>
-<div class="flex-grow">
-    <div class="mt-10">
-        <h1 class="text-4xl font-bold text-center">sachade.co</h1>
-    </div>
-    <div class="">
-        <p class="text-center">i do things</p>
-        <div class="flex flex-row justify-center items-center space-x-4 mt-4">
-            <a href="https://github.com/maamokun">
-                <button type="button">GitHub</button>
-            </a>
-            <a href="/games">
-                <button type="button">Games</button>
-            </a>
-            <a href="https://mikn.dev">
-                <button type="button">MikanDev</button>
-            </a>
+<div class="flex-grow bg-gray-300">
+    <div class="ml-5">
+        <img class="h-48 mt-5" src="/img/header.png">
+        <div class="mt-5 flex flex-col">
+            <h1 class="text-xl">Welcome to the sachade.co web server.</h1>
+            <h1 class="text-xl">All coments or suggestions are welcome at
+                <span class="font-bold"><a id="obfuscated-email" href="#"></a></span>
+            </h1>
+        </div>
+        <div class="">
+            <div class="flex flex-row space-x-4 mt-4">
+                <a href="https://github.com/maamokun">
+                    <button type="button">GitHub</button>
+                </a>
+                <a href="/portfolio">
+                    <button type="button">My Stuff</button>
+                </a>
+                <a href="/games">
+                    <button type="button">Games</button>
+                </a>
+                <a href="https://mikn.dev">
+                    <button type="button">MikanDev</button>
+                </a>
+            </div>
         </div>
     </div>
 </div>
