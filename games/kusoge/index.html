@@ -1,43 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
+    <script src="p5.min.js"></script>
+    <script src="sketch.js"></script>
+    <style> body {
+        padding: 0;
+        margin: 0;
+    } </style>
     <meta charset="UTF-8">
     <script src="/js/tailwind.js"></script>
     <link rel="stylesheet" href="/css/index.css">
-    <title>Games</title>
-</head>
-<body class="min-h-screen flex flex-col font-serif">
-<script src="https://cdn.mikn.dev/analytics/script" defer></script>
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        swetrix.init('k5IaJ8B4SRuS', {
-            apiURL: 'https://analytics.mikandev.tech/log',
+    <title>Game Project</title>
+    <script src="https://cdn.mikn.dev/analytics/script" defer></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            swetrix.init('k5IaJ8B4SRuS', {
+                apiURL: 'https://analytics.mikandev.tech/log',
+            })
+            swetrix.trackViews()
         })
-        swetrix.trackViews()
-    })
-</script>
-
-<noscript>
-    <img
-            src="https://analytics.mikandev.tech/log/noscript?pid=k5IaJ8B4SRuS"
-            alt=""
-            referrerpolicy="no-referrer-when-downgrade"
-    />
-</noscript>
-<div class="flex-grow">
-    <div class="mt-10">
-        <h1 class="text-4xl font-bold text-center">Games</h1>
-    </div>
-    <div class="flex flex-row justify-center items-center space-x-4 mt-4">
-        <a href="/games/wavepuzzle">
-            <button type="button">Wave Puzzle</button>
-        </a>
-        <a href="/games/kusoge">
-            <button type="button">Game Project</button>
-        </a>
-    </div>
+    </script>
+</head>
+<body>
+<div id="game-canvas" class="h-full"></div>
+<div class="ml-2">
+    <p>Left/Right for movement, space to jump</p>
 </div>
-<footer class="bg-black text-white py-4">
+<footer class="bg-black text-white py-4 fixed bottom-0 w-full">
     <div class="flex justify-center items-center">
         <div class="flex flex-col justify-center items-center space-y-2">
             <img src="https://count.getloli.com/@sachade-co?name=sachade-co&theme=kasuterura-1&padding=7&offset=0&align=top&scale=1&pixelated=1&darkmode=0"
