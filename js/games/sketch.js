@@ -20,6 +20,7 @@ var isFalling = false;
 var isJumping = false;
 var isWalkingLeft = false;
 var isWalkingRight = false;
+var speed = 2;
 var disabled;
 
 var trees_x = [];
@@ -40,8 +41,7 @@ var gameOver = false;
 
 function setup()
 {
-    let canvas = createCanvas(1024, 576);
-    canvas.parent('game-canvas');
+    createCanvas(1024, 576);
     floorPos_y = height * 3/4;
 
     lives = 3;
@@ -332,12 +332,12 @@ function draw()
 
     if(isLeft)
     {
-        gameChar_x -= 2;
+        gameChar_x -= speed;
     }
 
     if(isRight)
     {
-        gameChar_x += 2;
+        gameChar_x += speed;
     }
 
     if(gameChar_y - 10 < floorPos_y) {
@@ -414,6 +414,10 @@ function keyPressed()
         isRight = true;
         isWalkingRight = true;
     }
+    else if(keyCode == 16)
+    {
+        speed = 4;
+    }
     else if(keyCode == 32)
     {
         if(!isJumping && !isFalling)
@@ -441,6 +445,10 @@ function keyReleased()
     {
         isRight = false;
         isWalkingRight = false;
+    }
+    else if(keyCode == 16)
+    {
+        speed = 2;
     }
 }
 
