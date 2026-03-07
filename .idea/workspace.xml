@@ -4,45 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6714d5a5-d7eb-4281-8ab8-c55106182430" name="Changes" comment="feat: No-JS tailwind!">
-      <change afterPath="$PROJECT_DIR$/src/components/Footer.astro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/games.astro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/games/kusoge.astro" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scripts/emailObfuscation.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/scripts/kusoge.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sachade.co.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sachade.co.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/output.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/tailwind.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/kusoge/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/wavepuzzle/assets/index-FXc_Ww7K.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/wavepuzzle/assets/index-Wh-Nvnb4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/wavepuzzle/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/wavepuzzle/vite.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/MikuApproved.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/badges/MikuApproved.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/VirtualDiva.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/badges/VirtualDiva.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/any2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/badges/any2.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/blends.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/badges/blends.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/caramelldansen.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/badges/caramelldansen.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/child.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/badges/child.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/cuteanimegirls.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/badges/cuteanimegirls.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/header.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/header.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/invalidator.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/badges/invalidator.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ipv6.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/badges/ipv6.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/j04q1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/badges/j04q1x.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/kawaiibutton.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/badges/kawaiibutton.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/mikandev-retro-badge.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/badges/mikandev-retro-badge.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/nya2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/badges/nya2.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/osaka.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/badges/osaka.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/peko.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/badges/peko.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/ubuntu_button_88x31.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/badges/ubuntu_button_88x31.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/vocaloid.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/badges/vocaloid.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/games/sketch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/p5.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/renovate.json" beforeDir="false" afterPath="$PROJECT_DIR$/renovate.json" afterDir="false" />
-    </list>
+    <list default="true" id="6714d5a5-d7eb-4281-8ab8-c55106182430" name="Changes" comment="feat: We use Astro now teehee" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -164,7 +126,7 @@
       <workItem from="1763532503102" duration="66000" />
       <workItem from="1764298513145" duration="845000" />
       <workItem from="1767804244090" duration="1593000" />
-      <workItem from="1772906898024" duration="3027000" />
+      <workItem from="1772906898024" duration="3076000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Better Moe Counter">
       <option name="closed" value="true" />
@@ -182,7 +144,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767805085428</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: We use Astro now teehee">
+      <option name="closed" value="true" />
+      <created>1772909976609</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1772909976609</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,7 +184,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: Better Moe Counter" />
     <MESSAGE value="feat: No-JS tailwind!" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: No-JS tailwind!" />
+    <MESSAGE value="feat: We use Astro now teehee" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: We use Astro now teehee" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
