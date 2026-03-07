@@ -4,19 +4,74 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6714d5a5-d7eb-4281-8ab8-c55106182430" name="Changes" comment="feat: Better Moe Counter">
-      <change afterPath="$PROJECT_DIR$/css/tailwind.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/kusoge/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/kusoge/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    <list default="true" id="6714d5a5-d7eb-4281-8ab8-c55106182430" name="Changes" comment="feat: No-JS tailwind!">
+      <change afterPath="$PROJECT_DIR$/src/components/Footer.astro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/games.astro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/games/kusoge.astro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/emailObfuscation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/scripts/kusoge.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sachade.co.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sachade.co.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/output.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/tailwind.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/kusoge/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/wavepuzzle/assets/index-FXc_Ww7K.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/wavepuzzle/assets/index-Wh-Nvnb4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/wavepuzzle/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/games/wavepuzzle/vite.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/MikuApproved.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/badges/MikuApproved.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/VirtualDiva.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/badges/VirtualDiva.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/any2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/badges/any2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/blends.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/badges/blends.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/caramelldansen.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/badges/caramelldansen.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/child.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/badges/child.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/cuteanimegirls.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/badges/cuteanimegirls.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/header.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/header.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/invalidator.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/badges/invalidator.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ipv6.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/badges/ipv6.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/j04q1x.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/badges/j04q1x.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/kawaiibutton.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/badges/kawaiibutton.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/mikandev-retro-badge.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/badges/mikandev-retro-badge.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/nya2.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/badges/nya2.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/osaka.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/badges/osaka.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/peko.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/badges/peko.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/ubuntu_button_88x31.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/badges/ubuntu_button_88x31.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/vocaloid.gif" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/badges/vocaloid.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/games/sketch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/p5.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renovate.json" beforeDir="false" afterPath="$PROJECT_DIR$/renovate.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_/Users/maamo/IdeaProjects/sachade.co" value="35gX534cj7meT5qPonzD08W14Be" />
+    </persistenceIdMap>
+  </component>
+  <component name="CopilotUserSelectedModel">
+    <selectedModels>
+      <entry key="chat-panel" value="Claude Sonnet 4.6" />
+      <entry key="agent-panel" value="Claude Sonnet 4.6" />
+    </selectedModels>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -31,10 +86,16 @@
     &quot;accountId&quot;: &quot;4ef33813-5603-4ce4-b85c-a85044330292&quot;
   }
 }</component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="JNul9tS2" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="35gX534cj7meT5qPonzD08W14Be" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -48,7 +109,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "astro",
     "javascript.preferred.runtime.type.id": "node",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
@@ -60,6 +121,7 @@
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers",
     "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "/Users/maamo/Applications/IntelliJ IDEA.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -68,11 +130,14 @@
       <recent name="$PROJECT_DIR$/css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets" />
+      <recent name="$PROJECT_DIR$/src/assets/badges" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/old-site" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/sachade.co/index.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/sachade.co/old-site/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -98,7 +163,8 @@
       <updated>1758334671855</updated>
       <workItem from="1763532503102" duration="66000" />
       <workItem from="1764298513145" duration="845000" />
-      <workItem from="1767804244090" duration="749000" />
+      <workItem from="1767804244090" duration="1593000" />
+      <workItem from="1772906898024" duration="3027000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Better Moe Counter">
       <option name="closed" value="true" />
@@ -108,15 +174,47 @@
       <option name="project" value="LOCAL" />
       <updated>1763532547515</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: No-JS tailwind!">
+      <option name="closed" value="true" />
+      <created>1767805085428</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1767805085428</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="astro" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: Better Moe Counter" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Better Moe Counter" />
+    <MESSAGE value="feat: No-JS tailwind!" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: No-JS tailwind!" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

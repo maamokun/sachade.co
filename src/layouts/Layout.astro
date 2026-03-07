@@ -1,0 +1,27 @@
+---
+import "@/styles/global.css"
+import Footer from "@/components/Footer.astro"
+
+import orangeGif from "@/assets/orange.gif"
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<link rel="icon" href="/favicon.ico" />
+		<meta property="og:type" content="website">
+		<meta property="og:title" content="sachade.co">
+		<meta property="og:url" content="https://sachade.co">
+		<meta property="og:image" content="">
+		<meta property="og:description" content="person with skill issue">
+	</head>
+	<body style={`background-image: url(${orangeGif.src}); background-repeat: repeat; background-attachment: fixed;`}>
+		<div class="min-h-screen flex flex-col font-serif">
+		<slot />
+		</div>
+		<Footer />
+	</body>
+</html>
