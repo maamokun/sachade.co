@@ -1,0 +1,19 @@
+---
+import Layout from "@/layouts/Layout.astro";
+---
+
+<head>
+  <title>Game Project</title>
+</head>
+<script>
+  import { startKusoge } from "@/scripts/kusoge";
+  startKusoge("game-canvas");
+</script>
+
+<Layout>
+  <div id="game-canvas" class="h-full"></div>
+  <div class="ml-2">
+    <p>Left/Right for movement, space to jump</p>
+  </div>
+</Layout>
+

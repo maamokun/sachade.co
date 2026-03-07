@@ -4,19 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6714d5a5-d7eb-4281-8ab8-c55106182430" name="Changes" comment="feat: Better Moe Counter">
-      <change afterPath="$PROJECT_DIR$/css/tailwind.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/games/kusoge/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/games/kusoge/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="6714d5a5-d7eb-4281-8ab8-c55106182430" name="Changes" comment="feat: We use Astro now teehee" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_/Users/maamo/IdeaProjects/sachade.co" value="35gX534cj7meT5qPonzD08W14Be" />
+    </persistenceIdMap>
+  </component>
+  <component name="CopilotUserSelectedModel">
+    <selectedModels>
+      <entry key="chat-panel" value="Claude Sonnet 4.6" />
+      <entry key="agent-panel" value="Claude Sonnet 4.6" />
+    </selectedModels>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -31,10 +48,16 @@
     &quot;accountId&quot;: &quot;4ef33813-5603-4ce4-b85c-a85044330292&quot;
   }
 }</component>
+  <component name="MacroExpansionManager">
+    <option name="directoryName" value="JNul9tS2" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="35gX534cj7meT5qPonzD08W14Be" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -48,7 +71,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "astro",
     "javascript.preferred.runtime.type.id": "node",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
@@ -60,6 +83,7 @@
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "reference.settings.ide.settings.web.browsers",
     "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "/Users/maamo/Applications/IntelliJ IDEA.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -68,11 +92,14 @@
       <recent name="$PROJECT_DIR$/css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets" />
+      <recent name="$PROJECT_DIR$/src/assets/badges" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/old-site" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/sachade.co/index.html" useBuiltInWebServerPort="true">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/sachade.co/old-site/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
@@ -98,7 +125,8 @@
       <updated>1758334671855</updated>
       <workItem from="1763532503102" duration="66000" />
       <workItem from="1764298513145" duration="845000" />
-      <workItem from="1767804244090" duration="749000" />
+      <workItem from="1767804244090" duration="1593000" />
+      <workItem from="1772906898024" duration="3076000" />
     </task>
     <task id="LOCAL-00001" summary="feat: Better Moe Counter">
       <option name="closed" value="true" />
@@ -108,15 +136,56 @@
       <option name="project" value="LOCAL" />
       <updated>1763532547515</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feat: No-JS tailwind!">
+      <option name="closed" value="true" />
+      <created>1767805085428</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1767805085428</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: We use Astro now teehee">
+      <option name="closed" value="true" />
+      <created>1772909976609</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1772909976609</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="astro" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: Better Moe Counter" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Better Moe Counter" />
+    <MESSAGE value="feat: No-JS tailwind!" />
+    <MESSAGE value="feat: We use Astro now teehee" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: We use Astro now teehee" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
