@@ -8,4 +8,7 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
   },
+  build: {
+    assets: "_thecoolstuffthatmakesthissitework"
+  }
 });
